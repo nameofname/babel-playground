@@ -1,5 +1,7 @@
 "use strict"; 
 
+const freeze = require('deep-freeze');
+
 const obj = {
     a : 'b',
     nerp : 'derp'
@@ -15,3 +17,5 @@ console.log(obj);
 console.log(obj);
 console.log({...obj, nerp : "shark-o-ball"});
 console.log(obj);
+
+// TODO : try it with deep freeze?
