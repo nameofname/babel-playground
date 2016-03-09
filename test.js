@@ -3,4 +3,4 @@ require('babel-register');
 // require('./src/createStore');
 // require('./src/code1');
 // require('./src/objectAssign');
-require('./src/es6-function');
+require('./src/magicKeys');
